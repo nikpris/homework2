@@ -1,0 +1,121 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --contact--footer-text-color: rgba(255,255,255,0.6);
+    --dark-bg-color: #2F303A;
+    --primary-bg-color: #FFFFFF;
+    --section-bg-color: #F5F4FA;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+font-family: 'raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: #000000;
+}
+
+.footer .logo {
+color: var(--primary-bg-color);
+}
+
+.accent-logo {
+    color: var(--accent-color);
+}
+
+.link-nav {
+color: var(--title-text-color);
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+color: var(--accent-color);
+}
+
+.contact-link {
+color: var(--primary-text-color);
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.page-title {
+color: var(--primary-bg-color);
+background-color: var(--dark-bg-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+}
+
+.button {
+color: var(--primary-bg-color);
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+}
+
+.advantages-title {
+color: var(--title-text-color);
+font-weight: 700;
+}
+
+.advantages p {
+line-height: 1.71;
+}
+
+.section-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+
+.team {
+    background-color: var(--section-bg-color);
+}
+
+.employee {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+
+.team p {
+font-size: 16px;
+line-height: 1.18;
+}
+
+.footer .contact-link {
+color: var(--contact--footer-text-color);
+line-height: 1.71;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color: var(--accent-color);
+}
+
+.address p {
+color: var(--primary-bg-color);
+line-height: 1.71;
+}
+
+.footer {
+background-color: var(--dark-bg-color);
+}
